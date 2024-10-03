@@ -28,7 +28,7 @@ function IndexHeader() {
         <div
           className="page-header-image"
           style={{
-            backgroundImage: "url(" + require("assets/img/header.jpg") + ")"
+            backgroundImage: "url(" + require("assets/img/header.jpg") + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -37,10 +37,12 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("assets/img/now-logo.png")}
+              src={require("assets/GonzálezHerrera.png")}
             ></img>
-            <h1 className="h1-seo">Now UI Kit.</h1>
-            <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+            <h1 className="h1-seo">Universidad Tecnologica de Durango</h1>
+            <h3>Mombre del Alumno:Gonzalez Herrera Diego</h3>
+            <h4>GESTION DEL PROCESO DE SOFTWARE</h4>
+            <h4>PARCIAL 1</h4>
           </div>
           <h6 className="category category-absolute">
             Designed by{" "}
